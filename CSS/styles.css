@@ -160,7 +160,7 @@ a {
 
 .footer {
   background-color: rgb(75, 129, 198);
-  height: 300px;
+  height: auto;
   text-align: center;
   padding-top: 50px;
 }
@@ -201,4 +201,11 @@ a {
   height: auto;
   position: absolute;
   left: 61%;
+}
+
+.ctext {
+  color: #ececec;
+  font-size: 0.8rem;
+  padding-top: 180px;
+  padding-bottom: 50px;
 }
