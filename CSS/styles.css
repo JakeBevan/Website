@@ -40,6 +40,43 @@ a {
   color: #222831;
 }
 
+.header {
+  margin: 0;
+  background-color: rgb(75, 129, 198);
+  height: 100px;
+}
+
+.pagetitle {
+  padding: 30px;
+  color: #ececec;
+  font-family: 'Great Vibes', cursive;
+  font-size: 3rem;
+  text-align: left;
+}
+
+.homeimg {
+  height: 50px;
+  width: auto;
+  background-color: 0;
+}
+
+.holdingcontainer {
+  height: auto;
+  padding-top: 60px;
+}
+
+
+.holdingtext {
+  width: 50%;
+  margin: auto;
+  line-height: 2;
+}
+
+.holdingimg {
+  width: 50vw;
+  height: auto;
+  margin: 50px auto;
+}
 
 .topcontainer {
   margin: 0;
@@ -208,4 +245,26 @@ a {
   font-size: 0.8rem;
   padding-top: 180px;
   padding-bottom: 50px;
+}
+
+.homelink {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+.CVTitle {
+  color: rgb(75, 129, 198);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+}
+
+.CVProfile {
+  border-radius: 50%;
+}
+
+.cvhr {
+  width: 50%;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
