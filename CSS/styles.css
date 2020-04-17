@@ -1,0 +1,204 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+h1 {
+  margin: 0;
+  color: #ececec;
+  font-family: 'Great Vibes', cursive;
+  font-size: 6rem;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  color: #222831;
+  margin: 0;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #222831;
+}
+
+p {
+  padding: 50px 0 0 0;
+  font-family: 'Montserrat', sans-serif;
+  color: #222831;
+  margin: 0;
+}
+
+a {
+  font-family: 'Montserrat', sans-serif;
+  color: #222831;
+}
+
+
+.topcontainer {
+  margin: 0;
+  background-color: rgb(75, 129, 198);
+  text-align: center;
+  height: 800px;
+  position: relative;
+}
+
+.RadCamContainer {
+  text-align: right;
+}
+
+.RadCamImg {
+  height: auto;
+  width: 40%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.title {
+  padding-top: 200px;
+  padding-bottom: 50px;
+}
+
+.subtitle {
+  padding-top: 100px;
+}
+
+.profilecontainer {
+  background-color: #ececec;
+  text-align: center;
+  height: auto;
+}
+
+.ProfilePic {
+  height: auto;
+  width: 15%;
+  border-radius: 50%;
+  margin-top: 100px;
+  margin-bottom: 60px;
+}
+
+.profiletext {
+  width: 40%;
+  margin: auto;
+  line-height: 2;
+}
+
+.dividercontainer {
+  width: 100%;
+  height: auto;
+  background-color: #ececec;
+  text-align: center;
+}
+
+.divider {
+  width: 30%;
+  height: auto;
+}
+
+.contentcontainer {
+  height: 600px;
+  background-color: #ececec;
+  padding-top: 50px;
+}
+
+.contentblock1 {
+  width: 25%;
+  height: 400px;
+  background-color: #ececec;
+  position: absolute;
+  left: 0;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.contentblock2 {
+  width: 25%;
+  height: 400px;
+  background-color: #ececec;
+  position: absolute;
+  left: 25%;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.contentblock3 {
+  width: 25%;
+  height: 400px;
+  background-color: #ececec;
+  position: absolute;
+  left: 50%;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.contentblock4 {
+  width: 25%;
+  height: 400px;
+  background-color: #ececec;
+  position: absolute;
+  left: 75%;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.contentimg {
+  height: auto;
+  width: 60%;
+  border-radius: 50%;
+}
+
+.contentimg:hover {
+  opacity: 0.7;
+}
+
+.footer {
+  background-color: rgb(75, 129, 198);
+  height: 300px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.SMimg {
+  padding-top: 50px;
+  height: auto;
+  width: 5vw;
+}
+
+.SMimg:hover {
+  opacity: 0.7;
+}
+
+.SMcontainer1 {
+  width: auto;
+  height: auto;
+  position: absolute;
+  left: 34%;
+}
+
+.SMcontainer2 {
+  width: auto;
+  height: auto;
+  position: absolute;
+  left: 43%;
+}
+
+.SMcontainer3 {
+  width: auto;
+  height: auto;
+  position: absolute;
+  left: 52%;
+}
+
+.SMcontainer4 {
+  width: auto;
+  height: auto;
+  position: absolute;
+  left: 61%;
+}
