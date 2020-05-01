@@ -2,11 +2,11 @@ function Play() {
 
 var randomNumber1 = Math.ceil((Math.random()) * 6);
 
-document.querySelector(".img1").setAttribute("src", "images/dice" + randomNumber1 + ".png");
+document.querySelector(".img1").setAttribute("src", "Images/dice" + randomNumber1 + ".png");
 
 var randomNumber2 = Math.ceil((Math.random()) * 6);
 
-document.querySelector(".img2").setAttribute("src", "images/dice" + randomNumber2 + ".png");
+document.querySelector(".img2").setAttribute("src", "Images/dice" + randomNumber2 + ".png");
 
 if (randomNumber1 === randomNumber2) {
     document.querySelector(".title").innerText = "Draw!";
