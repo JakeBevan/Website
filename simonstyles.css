@@ -3,6 +3,10 @@ body {
   background-color: #011F3F;
 }
 
+a {
+  color: #FEF2BF;
+}
+
 #level-title {
   font-family: 'Press Start 2P', cursive;
   font-size: 3rem;
@@ -62,4 +66,9 @@ text-decoration: none;
 display: inline-block;
 font-size: 32px;
 margin: 50px 0;
+}
+
+.simonfooter {
+  color: #FEF2BF;
+  padding: 50px 0
 }
