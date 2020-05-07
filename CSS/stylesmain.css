@@ -1,8 +1,10 @@
 
+
+
 body {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 h2 {
@@ -238,4 +240,45 @@ p {
 
 .educol {
   padding: 20px;
+}
+
+.werow {
+  margin-top: 20px;
+}
+
+@media (max-width: 980px) {
+  .RadCamImg {
+    height: auto;
+    width: 100%;
+  }
+
+  .topcontainer {
+    background-color: rgb(75, 129, 198);
+    text-align: center;
+    height: 700px;
+    padding: 0;
+    position: relative;
+  }
+  .title {
+    padding-top: 100px;
+    padding-bottom: 50px;
+  }
+  .subtitle {
+    padding-top: 50px;
+  }
+
+  .pagetitle {
+    padding: 30px;
+    font-size: 2rem;
+  }
+  .projecttext {
+    width: 80%;
+    margin: auto;
+    font-size: 1rem;
+  }
+  .holdingimg {
+    width: 80vw;
+    height: auto;
+  }
+
 }
