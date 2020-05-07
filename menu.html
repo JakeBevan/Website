@@ -4,33 +4,54 @@
 <head>
   <meta charset="utf-8">
   <title>Menu: Jake's Website</title>
-  <link rel="stylesheet" type="text/css" href="CSS/styles.css">
-  <link rel="icon" href="Images/JBfavicon.ico">
   <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="CSS/stylesmain.css">
 
-<style media="screen">
-  body {text-align: center; }
-</style>
+  <meta property="og:title" content="Jake's Website" />
+  <meta property="og:description" content="My personal webpage, full of exciting stuff about me!" />
+  <meta property="og:title" content="Images/Jake.jpg" />
 
 </head>
 
 <body>
 
-<div class="header">
+  <nav class="navbar sticky-top navbar-expand-md navbar-dark">
+    <h2 class="navbar-brand txtoncolour">Menu</h2>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-  <h2 class="pagetitle">Menu</h2>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="blogmain.html">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="photosmain.html">Photography</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="menu.html">Menu</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="cv.html">CV</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio.html">Portfolio</a>
+        </li>
+      </ul>
 
-  <a class="homelink" href="index.html" media="screen"> <img class="homeimg" src="Images/home.png" alt="Home"> </a>
+    </div>
+  </nav>
 
-</div>
+<div class="contentcontainer">
 
-<div class="holdingcontainer">
+  <h2 class="pagetitle">The Menu</h2>
 
-  <h2>The Menu</h2>
 
-  <p class="holdingtext">
-  </p>
 
   <img class="holdingimg" src="Images/chef.jpeg" alt="Chef Img">
 
@@ -39,28 +60,40 @@
 
 <div class="footer">
 
-  <a href="mailto:jake.bevan.626@gmail.com">Contact Me</a>
+<button type="button" name="button" class="btn btn-lg btn-outline-light"><a class="txtoncolour" href="mailto:jake.bevan.626@gmail.com">Contact Me</a></button>
 
-  <p>Follow me on</p>
 
-  <div class="SMcontainer1">
-    <a href="https://twitter.com/Mepheisto"> <img class="SMimg" src="Images/Twitter.png" alt="Twitter Icon" /> </a>
+  <p class="txtoncolour foottext">Follow me on</p>
+
+<div class="container-fluid">
+<div class="row justify-content-center">
+
+  <div class="col-md-1 col-2">
+    <a href="https://twitter.com/Mepheisto"> <img class="SMimg w-100" src="Images/Twitter.png" alt="Twitter Icon" /> </a>
   </div>
 
-  <div class="SMcontainer2">
-    <a href="https://www.linkedin.com/in/jakebevanoxford/"> <img class="SMimg" src="Images/Linkedin.png" alt="LinkedIn Icon" /> </a>
+  <div class="col-md-1 col-2">
+    <a href="https://www.linkedin.com/in/jakebevanoxford/"> <img class="SMimg w-100" src="Images/Linkedin.png" alt="LinkedIn Icon" /> </a>
   </div>
 
-  <div class="SMcontainer3">
-    <a href="https://www.instagram.com/mepheisto/"> <img class="SMimg" src="Images/instagram.png" alt="Instagram Icon"> </a>
+  <div class="col-md-1 col-2">
+    <a href="https://www.instagram.com/mepheisto/"> <img class="SMimg w-100" src="Images/instagram.png" alt="Instagram Icon"> </a>
   </div>
 
-  <div class="SMcontainer4">
-    <a href="https://letterboxd.com/Mepheisto/"> <img class="SMimg" src="Images/Letterboxd.png" alt="Letterboxd Icon" /> </a>
+  <div class="col-md-1 col-2">
+    <a href="https://letterboxd.com/Mepheisto/"> <img class="SMimg w-100" src="Images/Letterboxd.png" alt="Letterboxd Icon" /> </a>
   </div>
+</div>
+</div>
+
+
 
   <p class="ctext">© 2020 Jake Bevan.</p>
 </div>
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
 
 </body>

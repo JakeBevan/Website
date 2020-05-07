@@ -4,38 +4,86 @@
 <head>
   <meta charset="utf-8">
   <title>CV: Jake's Website</title>
-  <link rel="stylesheet" type="text/css" href="CSS/styles.css">
-  <link rel="icon" href="Images/JBfavicon.ico">
-  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="CSS/stylesmain.css">
 
-  <style media="screen">
+  <meta property="og:title" content="Jake's Website" />
+  <meta property="og:description" content="My personal webpage, full of exciting stuff about me!" />
+  <meta property="og:title" content="Images/Jake.jpg" />
+
+  <!-- <style media="screen">
       h3 { font-size: 1.4rem; text-align: center; padding: 50px 0; margin: 0;}
       li { font-size: 1.1rem;}
       td { font-size: 1.1rem; vertical-align: top;}
       tr { font-size: 1.1rem; padding-bottom: 40px;}
       ul {margin-top: 0; padding-left: 1em;}
       thead {text-align: left;}
-  </style>
+  </style> -->
 
 
 </head>
 
-<body>
-  <div class="header">
+<nav class="navbar sticky-top navbar-expand-md navbar-dark">
+  <h2 class="navbar-brand txtoncolour">My CV</h2>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-    <h2 class="pagetitle">My CV</h2>
-
-    <a class="homelink" href="index.html" media="screen"> <img class="homeimg" src="Images/home.png" alt="Home"> </a>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="blogmain.html">Blog</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="photosmain.html">Photography</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="menu.html">Menu</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="cv.html">CV</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="portfolio.html">Portfolio</a>
+      </li>
+    </ul>
 
   </div>
-<div style="padding: 50px;">
+</nav>
 
 
-  <table cellspacing="20">
+<div class="CVcontainer">
+  <div class="container">
+
+
+  <div class="row d-flex flex-wrap align-items-center">
+    <div class="col-md-4">
+      <img class="CVPic" src="Images/Jake.jpg" alt="jake profile picture">
+    </div>
+    <div class="col-md-8 CVText">
+      <h2 class="pagetitle">Dr. Jake Bevan</h2>
+      <p><em>Store Manager - <strong><a class="linksonlight" href="https://www.sevenoakssoundandvision.co.uk">Sevenoaks Sound and Vision Oxford</a></strong></em></p> <br>
+      <p> A PhD. graduate with a record of high academic achievement, excellent communication skills and administrative experience.
+        Passionate about the importance of education and acquiring new knowledge, with a talent for presenting complex ideas in a clear and concise way.
+        Aiming to expand upon my current skills in a new environment. <br><br>
+        Using being furloughed during the CoronoaVirus outbreak to learn coding and web development.
+      </p>
+    </div>
+
+  </div>
+  </div>
+</div>
+
+<!--
+  <table>
     <tr>
-      <td><img class="CVProfile" src="Images/Jake.jpg" alt="jake profile picture"></td>
+      <td><img src="Images/Jake.jpg" alt="jake profile picture"></td>
       <td>
-        <h1 class="CVTitle">Dr. Jake Bevan</h1>
+        <h1>Dr. Jake Bevan</h1>
         <p><em>Store Manager - <strong><a href="https://www.sevenoakssoundandvision.co.uk">Sevenoaks Sound and Vision Oxford</a></strong></em></p>
         <p> A PhD. graduate with a record of high academic achievement, excellent communication skills and administrative experience.
           Passionate about the importance of education and acquiring new knowledge, with a talent for presenting complex ideas in a clear and concise way.
@@ -44,11 +92,12 @@
         </p>
       </td>
     </tr>
-  </table>
+  </table> -->
+<div class="CVcontainer">
 
   <hr class="cvhr">
-  <h3>Key Skills</h3>
-  <ul style="width: 80%;margin: auto;">
+  <h3 class="cvsubhead">Key Skills</h3>
+  <ul class="cvskills">
     <p>
       <li><strong>Communication (Written)</strong> - Published in peer-reviewed journal and edited collection. Completed 100,000 word doctoral thesis. Experienced in creating content to promote a business on social media platforms.</li>
       <li><strong>Communication (Verbal)</strong> - Able to effectively convey complex ideas to a variety of different audiences. Have presented research at multiple academic conferences. Regularly present reports on business activity to key
@@ -61,30 +110,58 @@
       <li><strong>IT Skills</strong> - Highly proficient with standard office packages, Windows and Mac operating systems and a variety of custom software and EPOS systems. Currently learning to develop websites and write code.</li>
     </p>
   </ul>
+</div>
+
+<div class="CVcontainer">
+
 
 <hr class="cvhr">
-  <h3>Education</h3>
-  <table style="width: auto;margin: auto;">
-    <tr>
-      <td style="width: 10vw;">University of Exeter</td>
-      <td>PhD. in Film Studies, 2018</td>
-    </tr>
-    <tr>
-      <td>King's College London</td>
-      <td>Masters with Distinction in Film Studies, 2012</td>
-    </tr>
-    <tr>
-      <td>University of Exeter</td>
-      <td>BA Honours in European and World Cinemas, 2008</td>
-    </tr>
-    <tr>
-      <td>Strode College</td>
-      <td>A Levels in Physics (A), Film Studies (A), French (B), AS Maths with Mechanics (B)</td>
-    </tr>
-  </table>
+  <h3 class="cvsubhead">Education</h3>
+
+  <div class="container-fluid">
+    <div class="row justify-content-center">
+        <div class="col-8 col-md-2">
+            <img class="w-75 eduimage" src="Images/Exeter.png" alt="Exeter University Logo">
+
+            <br><br><br><br>
+            <p><strong>University of Exeter</strong>
+            <br>PhD. in Film Studies, 2018</p>
+
+
+        </div>
+        <div class="col-8 col-md-2">
+            <img class="w-75 eduimage" src="Images/KCL.png" alt="Exeter University Logo">
+          <br><br>
+          <p><strong>King's College London</strong>
+          <br>PMasters with Distinction in Film Studies, 2012</p>
+
+        </div>
+        <div class="col-8 col-md-2">
+            <img class="w-75 eduimage" src="Images/Exeter.png" alt="Exeter University Logo">
+          <br><br><br><br>
+          <p><strong>University of Exeter</strong>
+          <br>BA Honours in European and World Cinemas, 2008</p>
+
+        </div>
+        <div class="col-8 col-md-2">
+            <img class="w-75 eduimage" src="Images/strode.png" alt="Exeter University Logo">
+          <br><br><br><br><br>
+          <p><strong>Strode College</strong>
+          <br>A Levels in Physics (A), Film Studies (A), French (B), AS Maths with Mechanics (B)</p>
+
+        </div>
+
+    </div>
+
+  </div>
+  </div>
+
+<div class="CVcontainer">
+
+
 <hr class="cvhr">
-  <h3>Work Experience</h3>
-  <table style="width: 80%;margin: auto;">
+  <h3 class="cvsubhead">Work Experience</h3>
+  <table class="table" style="width: 80%;margin: auto;">
     <thead>
       <tr>
         <th>Dates</th>
@@ -96,9 +173,9 @@
     </thead>
     <tbody>
       <tr>
-        <td>2016 - Present <br> <br> <br> 2014-2016 </td>
+        <td>2016 - Present <br> <br> <br> <br> 2014-2016 </td>
         <td>Sevenoaks Sound and Vision</td>
-        <td>Store Manager <br> <br> <br> Senior Sales Assistant </td>
+        <td>Store Manager <br> <br> <br> <br><br> Senior Sales Assistant </td>
         <td>
           <ul>
             <li>Responsible for day-to-day administration of a business with a c.£500,000 turnover.</li>
@@ -155,24 +232,34 @@
         </td>
       </tr>
   </table>
+</div>
+
+
+ <div class="CVcontainer">
 
 <hr class="cvhr">
-  <h3>Publications and Awards</h3>
-  <ul style="width: 80%;margin: auto;">
+  <h3 class="cvsubhead">Publications and Awards</h3>
+  <ul class="cvskills">
     <p>
-      <li><a href="https://ore.exeter.ac.uk/repository/handle/10871/33195">Trauma, Modernity and Hauntings: The Legacy of Japanese Colonialism in Contemporary South Korean Cinema,</a> Doctoral Thesis, Submitted 7th November 2017 </li>
-      <li><a href="https://www.peterlang.com/view/9783035397536/xhtml/chapter007.xhtml">‘‘Arirang’: Addressing the Nation in South and North Korea’</a>in Korean Screen Cultures, eds. Andrew David Jackson and Collette Balmain (Oxford, Bern, Berlin,
+      <li><a class="linksonlight" href="https://ore.exeter.ac.uk/repository/handle/10871/33195">Trauma, Modernity and Hauntings: The Legacy of Japanese Colonialism in Contemporary South Korean Cinema,</a> Doctoral Thesis, Submitted 7th November 2017 </li>
+      <li><a class="linksonlight" href="https://www.peterlang.com/view/9783035397536/xhtml/chapter007.xhtml">‘‘Arirang’: Addressing the Nation in South and North Korea’</a>in Korean Screen Cultures, eds. Andrew David Jackson and Collette Balmain (Oxford, Bern, Berlin,
         Bruxelles, Frankfurt am Main, New York, Wien: Peter Lang Publishing, 2015), pp.
         101-118.</li>
-      <li><a href="https://doi.org/10.1386/ncin.8.1.45_1">'Welcome to Panmunjeom: Encounters with the North in contemporary South Korean Cinema’,</a> New Cinemas 8:1 (2010), pp. 45-57.</li>
+      <li><a class="linksonlight" href="https://doi.org/10.1386/ncin.8.1.45_1">'Welcome to Panmunjeom: Encounters with the North in contemporary South Korean Cinema’,</a> New Cinemas 8:1 (2010), pp. 45-57.</li>
       <br>
       <li>Arts and Humanities Research Council studentship, 2012-2015 </li>
       <li>British Association of Korean Studies Bursary, 2014 </li>
       <li>Dean's Commendation for Outstanding Academic Achievement, 2008</li>
     </p>
   </ul>
+
+</div>
+
+
+<div class="CVcontainerfinal">
+
 <hr class="cvhr">
-  <h3>Languages</h3>
+  <h3 class="cvsubhead">Languages</h3>
   <table style="width: 40%;margin: 0 45% 0 35%; text-align: left;">
     <tr>
       <td style="width:5%;">Italian</td>
@@ -190,7 +277,49 @@
 
   </tbody>
 
+</div>
+
+
+  <div class="footer">
+
+  <button type="button" name="button" class="btn btn-lg btn-outline-light"><a class="txtoncolour" href="mailto:jake.bevan.626@gmail.com">Contact Me</a></button>
+
+
+    <p class="txtoncolour foottext">Follow me on</p>
+
+  <div class="container-fluid">
+  <div class="row justify-content-center">
+
+    <div class="col-md-1 col-2">
+      <a href="https://twitter.com/Mepheisto"> <img class="SMimg w-100" src="Images/Twitter.png" alt="Twitter Icon" /> </a>
+    </div>
+
+    <div class="col-md-1 col-2">
+      <a href="https://www.linkedin.com/in/jakebevanoxford/"> <img class="SMimg w-100" src="Images/Linkedin.png" alt="LinkedIn Icon" /> </a>
+    </div>
+
+    <div class="col-md-1 col-2">
+      <a href="https://www.instagram.com/mepheisto/"> <img class="SMimg w-100" src="Images/instagram.png" alt="Instagram Icon"> </a>
+    </div>
+
+    <div class="col-md-1 col-2">
+      <a href="https://letterboxd.com/Mepheisto/"> <img class="SMimg w-100" src="Images/Letterboxd.png" alt="Letterboxd Icon" /> </a>
+    </div>
   </div>
+  </div>
+
+
+
+    <p class="ctext">© 2020 Jake Bevan.</p>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+
+
 </body>
 
 </html>
