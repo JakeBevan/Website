@@ -22,7 +22,6 @@ p {
 }
 
 
-
 .container {
     max-width: 100vw;
 }
@@ -183,4 +182,50 @@ p {
   margin: auto;
   line-height: 2;
   padding-bottom: 30px;
+}
+
+.holdingimg {
+  width: 50vw;
+  height: auto;
+  margin: 50px auto;
+}
+
+.CVPic {
+  height: auto;
+  width: 25vw;
+  border-radius: 50%;
+}
+
+.CVcontainer {
+  background-color: #ececec;
+  padding: 50px 0 0 0;
+}
+
+.CVcontainerfinal {
+  background-color: #ececec;
+  padding: 50px 0;
+}
+
+.CVText {
+  padding: 50px 30px
+}
+
+.cvhr {
+  width: 30%;
+  border: 1px solid silver;
+  margin-top: 40px;
+}
+
+.cvsubhead {
+  padding: 20px 0;
+}
+
+.cvskills {
+  width: 80%;
+  margin: auto;
+  text-align: left;
+}
+
+.eduimage {
+  margin-top: 20px;
 }
